@@ -1,1 +1,80 @@
-/* Add your own styles */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+}
+
+
+header {
+    background-color: #FF00FF;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(255, 0, 255, 0.1);
+}
+
+#controls {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #FF00FF;
+}
+
+input[type="search"] {
+    width: 70%;
+    padding: 8px;
+    box-sizing: border-box;
+}
+
+button {
+    padding: 8px 15px;
+    background-color: #FF00FF;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+
+#result {
+    border-top: 1px solid #FF00FF;
+    margin-top: 20px;
+    padding-top: 20px;
+}
+
+
+@media (max-width: 600px) {
+    input[type="search"] {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    button {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    main {
+        max-width: 500px;
+        margin: 20px auto;
+        padding: 20px;
+    }
+}
+
+
+
